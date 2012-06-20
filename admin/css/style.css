@@ -285,7 +285,7 @@ width:73%;
   	color:#02930C;
   }
 /*------------------IMAGE UPLOADER---------------------*/
-#dropbox{
+#profilebox,#gallerybox{
 	background:#eee;
 	position: relative;
 	min-height:200px;
@@ -293,19 +293,19 @@ width:73%;
 }
 
 
-#dropbox .message{
+#profilebox .message,#gallerybox .message{
 	font-size: 11px;
     text-align: center;
     padding-top:100px;
     display: block;
 }
 
-#dropbox .message i{
+#profilebox .message i,#gallerybox .message i{
 	color:#ccc;
 	font-size:10px;
 }
 
-#dropbox:before{
+#profilebox:before,#gallerybox:before{
 	border-radius:3px 3px 0 0;
 }
 
@@ -317,7 +317,7 @@ width:73%;
 
 
 
-#dropbox .preview{
+#profilebox .preview,#gallerybox .preview{
 	max-width:100%;
 	height: auto;
 	float:left;
@@ -326,7 +326,7 @@ width:73%;
 	text-align: center;
 }
 
-#dropbox .preview img{
+#profilebox .preview img,#gallerybox .preview img{
 	max-width: 240px;
 	max-height:180px;
 	border:3px solid #fff;
@@ -334,12 +334,12 @@ width:73%;
 	box-shadow:0 0 2px #000;
 }
 
-#dropbox .imageHolder{
+#profilebox .imageHolder, #gallerybox .imageHolder{
 	display: inline-block;
 	position:relative;
 }
 
-#dropbox .uploaded{
+#profilebox .uploaded,#gallerybox .uploaded{
 	position: absolute;
 	top:0;
 	left:0;
@@ -348,7 +348,7 @@ width:73%;
 	display: none;
 }
 
-#dropbox .preview.done .uploaded{
+#profilebox .preview.done .uploaded, #gallerybox .preview.done .uploaded{
 	display: block;
 }
 
@@ -360,7 +360,7 @@ width:73%;
 
 
 
-#dropbox .progressHolder{
+#profilebox .progressHolder,#gallerybox .progressHolder{
 	position: absolute;
 	background-color:#252f38;
 	height:12px;
@@ -371,7 +371,7 @@ width:73%;
 	box-shadow:0 0 2px #000;
 }
 
-#dropbox .progress{
+#profilebox .progress,#gallerybox .progress{
 	background-color:#2586d0;
 	position: absolute;
 	height:100%;
@@ -386,7 +386,7 @@ width:73%;
 	transition:0.25s;
 }
 
-#dropbox .preview.done .progress{
+#profilebox .preview.done .progress,#gallerybox .preview.done .progress{
 	width:100% !important;
 }
 

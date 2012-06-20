@@ -10,7 +10,7 @@ include 'inc/header.php';
 <aside class="double">
 
 	<h4>Upload Profile Image</h4>
-	<div id="dropbox">
+	<div id="profilebox">
 		<span class="message">Drop your profile image here to upload</span>
 	</div>
 </aside>

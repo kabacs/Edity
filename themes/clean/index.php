@@ -35,7 +35,7 @@
 </div>
 
 <footer class="wrap">
-	<p>&copy; <?php echo "$siteTitle" ?> 2012 | alpha 0.5</p>
+	<p>&copy; <?php echo "$siteTitle" ?> 2012</p>
 </footer>
 
 </body>
