@@ -1,0 +1,5 @@
+<p>Hello, I'm Paulo Nunes, a self-taught front-end web developer and designer living in Cascais, Portugal. I love to tacle code and design fancy stuff for the web. Syndicatefx is my one-man enterprise, digital identity and online portfolio, take a look around!!</p>
+<ul>
+    <li><a href="http://facebook.com">Facebook</a></li>
+    <li><a href="http://twitter.com">Twitter</a></li>
+</ul>
